@@ -1,0 +1,73 @@
+.inputStyles{
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 50px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.btnStyles{
+  min-height: 50px;
+  background-color: #0093f2;
+  border-color: #0093f2;
+}
+
+.fieldContStyles{
+  padding: 5%;
+  background-color: black;
+  height: 100vh;
+}
+
+.resultContStyles{
+  padding: 5%;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.row{
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+/* li{
+  margin-
+} */
+
+.profileCont{
+  background: black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom:20px;
+    position: relative;
+}
+
+.imgCont{
+  height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nameCont{
+  position: absolute;
+    color: white;
+    top: 35px;
+    font-size: xx-large;
+    left: 150px;
+}
+
+.userNameCont{
+  position: absolute;
+    top: 70px;
+    left: 151px;
+    color: gray;
+}
