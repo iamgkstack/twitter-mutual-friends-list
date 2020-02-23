@@ -1,7 +1,6 @@
 const supertest = require('supertest');
 const dotenv = require('dotenv');
 
-const { setup } = require('../src/sql');
 
 process.env.NODE_ENV = 'test'; // just in case if test started by `mocha`
 /* Load config from .env file at very beginning of app */

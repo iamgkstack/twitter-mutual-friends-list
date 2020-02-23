@@ -73,11 +73,11 @@ server.on('error', error => {
     // handle specific listen errors with friendly messages
     switch (error.code) {
       case 'EACCES':
-        console.error(`${bind} requires elevated privileges`); // eslint-disable-line no-console
+        console.error(`${bind} requires elevated privileges`);
         process.exit(1);
         break;
       case 'EADDRINUSE':
-        console.error(`${bind} is already in use`); // eslint-disable-line no-console
+        console.error(`${bind} is already in use`);
         process.exit(1);
         break;
       default:
