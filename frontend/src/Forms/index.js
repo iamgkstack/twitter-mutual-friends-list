@@ -37,9 +37,6 @@ class Forms extends React.Component {
   }
 
   renderResult() {
-    // if (this.state.apiResult.length > 0){
-    //   this.setState({apiResult: []})
-    // }
     let result = this.state.apiResult.map((item)=>{
     return <li>
       <div className="profileCont">
@@ -55,7 +52,7 @@ class Forms extends React.Component {
       return <ul>{result}</ul>
     }
     else if(this.state.isLoading){
-      return <ul><li>Loading...</li></ul>
+      return <ul><li>Mutual friend lists are Loading..., Please wait for some time</li></ul>
     }
     else{
       return <ul><li>Input Data and Submit...</li></ul>
